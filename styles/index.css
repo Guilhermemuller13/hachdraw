@@ -1,0 +1,80 @@
+:root {
+  --primary-color: #177bbf;
+  --primary-color-hover: #156fac;
+
+  --secondary-color: #8abcde;
+  --secondary-color-hover: #7ca9c8;
+
+  --terciary-color: #464f61;
+  --terciary-color-hover: #3f4757;
+  --terciary-color-light: #ededef;
+  --terciary-color-light-hover: #e3e5e7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webtkit-font-smoothing: antialized;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  background-color: #1a1924;
+  font-size: 1.6rem;
+  color: #e1e1e6;
+  display: flex;
+  flex-direction: column;
+}
+
+body * {
+  font-family: "Roboto", sans-serif;
+}
+
+input {
+  background-color: transparent;
+  border: 0;
+}
+
+button {
+  border: 0;
+  background-color: var(--terciary-color-light);
+  min-width: 4.2rem;
+  height: 4.2rem;
+  padding: 1rem 1rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--terciary-color-light-hover);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100dvh;
+  max-width: 140rem;
+  width: 100dvw;
+  margin: 0 auto;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mode-draw > #footer {
+  display: none;
+}
+
+.mode-draw #change-mode {
+  background-color: var(--terciary-color);
+  color: var(--terciary-color-light);
+}

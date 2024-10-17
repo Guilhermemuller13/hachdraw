@@ -1,0 +1,16 @@
+#footer {
+  background-color: var(--terciary-color);
+  height: fit-content;
+  padding: 1rem;
+}
+
+.page {
+  font-size: 2rem;
+}
+
+.prev-action,
+.next-action {
+  display: flex;
+  gap: 1rem;
+  margin: auto 1rem;
+}

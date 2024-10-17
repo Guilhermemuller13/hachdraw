@@ -1,0 +1,7 @@
+#navbar {
+  background: transparent
+    linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%)
+    0% 0% no-repeat padding-box;
+  height: fit-content;
+  padding: 1rem;
+}
